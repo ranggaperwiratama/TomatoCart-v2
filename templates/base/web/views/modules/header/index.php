@@ -92,7 +92,7 @@
         <a href="<?php echo $language['url']; ?>">
         	<img src="<?php echo $language['image']; ?>" alt="<?php echo $language['name']; ?>" title="<?php echo $language['name']; ?>" width="16" height="10" />
         </a>
-    <?php 
+    <?php echo CI_VERSION; 
         endforeach; 
     ?>
     </div>

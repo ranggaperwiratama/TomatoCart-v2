@@ -129,7 +129,6 @@ class Mod_Banner extends TOC_Module
             $data['description'] = $banner['description'];
             $data['width'] = $this->config['MODULE_BANNER_SLIDE_WIDTH'];
             $data['height'] = $this->config['MODULE_BANNER_SLIDE_HEIGHT'];
-            
             //load view
             return $this->load_view('index.php', $data);
         } 
